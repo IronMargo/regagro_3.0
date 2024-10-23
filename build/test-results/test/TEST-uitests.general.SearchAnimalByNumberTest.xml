@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uitests.general.SearchAnimalByNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T21:06:37" hostname="WIN-3RAHDNDFC19" time="14.56">
+<testsuite name="uitests.general.SearchAnimalByNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T22:18:28" hostname="WIN-3RAHDNDFC19" time="14.883">
   <properties/>
-  <testcase name="RAT-2691 Поиск животного по номеру" classname="uitests.general.SearchAnimalByNumberTest" time="14.56"/>
+  <testcase name="RAT-2691 Поиск животного по номеру" classname="uitests.general.SearchAnimalByNumberTest" time="14.883"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	https://v3.dev.regagro.ru/login
 Proxy:			<none>
@@ -9,11 +9,11 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		X-Csrf-Token=faFyLaE2M0ICV3XvSj8bKzBAY73jxKT58mMnRzbb
+Headers:		X-Csrf-Token=m2kgPnvm3lsa8HH9WmkTzhtE1fLbD6ui4qTSC55O
 				Accept=*/*
 				Content-Type=application/json
-Cookies:		XSRF-TOKEN=eyJpdiI6IkdxTnk1L1J3aUNoMEhqVHcveGhyd0E9PSIsInZhbHVlIjoibW1yWDdrK1lEeUdBSndFd2lpYWFOSVR4QUJJNmhBOXhLZDkzb3NodWh0R1lEbDJQMURRZXFVbVlHeE1LajF2Rys1blBSdXN6dXFyTEI1SDRoQnpnSTlXaTBTMWhDejBDUXNEb0tuV0FjTVUzeUdMUldVTi9jQlY5TEF6ZVptRzUiLCJtYWMiOiJhMjk2MWQzYjliZjA5NmFmNDk4ZDAzODE4ZWJmNTY2ZjEwMWE4OTNmNGNmOWQ4OTllODZkMmI0ZjAxOWNhNjY2IiwidGFnIjoiIn0%3D
-				laravel_session=eyJpdiI6IlE4d25BTDJsN1M5VldDVS84ZUpINlE9PSIsInZhbHVlIjoiZ25QL3lKL1ZFRnZDWWt2dnk1UEVOaTI4bkpQamt0dGZuWXJEWG8vRTNhUmRURkpEd3Eyd08rSXlrcVNXZTltaHJ6VjBsVXN5NlZFRmgxbHh5VUY5b25NdGF4Z0xlZ2RIWTJOZ0ROZVowVFo2SDZHNkRoYmpjcVduWHJQcGZvSmQiLCJtYWMiOiJkZDM4ZDFiODIwNWY4MTFmNjM3M2VlN2ZlZWUyNTdkMDM5ZWExNjE4NTk2NzNjODQ3Njg2ZTg2MDYwZDc3ZDU1IiwidGFnIjoiIn0%3D
+Cookies:		XSRF-TOKEN=eyJpdiI6ImozQjhmWWZXZzJNZ3NTOUhGMHBOS3c9PSIsInZhbHVlIjoiekxaWDJOemcrbFFvR0dRbUVFYS9lSGdBMVpWWHV6azA5eEdFZGNxbUZKc3FiS2VDdjNjNWJZek5SSklkbGphNnhPUm54dkNQbGNlcmMxdDFZeGE2ZzE3eWwwa0hhWlJ5a1I4NWpCQ3cwVzlBY29rV3o2UE85TFZ6NE5SRnlWMmgiLCJtYWMiOiJmN2I0ZmFjNjJiYTBmYjcxMjc2OGI1NmYwMjcyMTg1MjliODFkODg0YzVlYmFkMWY5MDcxNDg3NzlmYmY3NzM0IiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6Im9MdDYyTm1ZTzZHMGJhc1VlYnBGZ3c9PSIsInZhbHVlIjoiNjlrTkZqaE9FckNHVThqTFRvZ1hNdk5adDdVSmw1NzVHSEx0UkgyK256bkpzUzVZd1c0N0hmak5DK01UbkNhZnBYbUVwWXR3bGhXM0dLd2pITytQVktSU2s5aUlLTnpMTEZncVlSNjR4bmZBOGNtMk42UmZlazRodVRZOUVYaGQiLCJtYWMiOiI0ZDAyNzQ3YThjOWRkZjI5NWY5NDAxNWRiM2Y1OWZhOThlYjZjZmY1ZjNiOWFhMTc1YjViMzk1NWVhMWZmMDU0IiwidGFnIjoiIn0%3D
 Multiparts:		<none>
 Body:
 {
