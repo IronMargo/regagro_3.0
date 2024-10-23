@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.registration.RegistrationEnterpriseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-23T19:10:08" hostname="WIN-3RAHDNDFC19" time="50.757">
+  <properties/>
+  <testcase name="RAT-2669 Регистрация площадки" classname="uitests.registration.RegistrationEnterpriseTest" time="22.29"/>
+  <testcase name="RAT-2712 Редактирование площадки" classname="uitests.registration.RegistrationEnterpriseTest" time="13.841"/>
+  <testcase name="RAT-3290 Удаление площадки" classname="uitests.registration.RegistrationEnterpriseTest" time="14.471"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=GdFQ8ve8E9ysmcF8T8jHp0tziiY6IFeN3rVURpyu
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IjNkeXpPRVovdzN5b2tHWTBuUlQyaHc9PSIsInZhbHVlIjoiTmtVUUNycStUR3FBOUZqTTdBY1VuWmprL1BCcTA2RzhRUG1VbGdGUURQdDkyNkZsUm5Ja28rWE1DZk9YUm93RzJxeGVKY1hOU1lVZ3l2bzdjeEYweUY4SU53cGFjemErNnJiZFI3T1Z1c3dVZDZOandlSTlrQ3h0K2xrNWttV24iLCJtYWMiOiI2ZDZiMDI1MjBlNDc0ZTQ2NDkxOWVlMTY4NTAyYTRjMmJjYjVhYmY3Njk1OTA5MzE0YzU4ZTA0MmQyNDllZjhmIiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6Iml1RTZYbjFRd2N4RjByRk45Nm9TZFE9PSIsInZhbHVlIjoiL1dVZFJGbjBiNWxHdVdFTzZEckF3RUpsbHJOT2JNUVFJUmFYNjZjaGVKV09YY2xIMzhwUTdudzdTZXdYYjExT3o4Mldyc1NKcVA2OStqWmF1QWNVOHhQaXZqSGNBaXFzWWV1VFIrMmhPNzN2a09Cd2g0RlgrWUhtNDV1eHdDaXUiLCJtYWMiOiJhOWViM2JhYzBjN2ZlM2QwMzA4YjI2MjI5NTQ2OWM0YjRlM2FiYTkzYmNjODVlMWQ2NmY3MTAzYTk1NGU1ZGI0IiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "kam@kam.kam",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

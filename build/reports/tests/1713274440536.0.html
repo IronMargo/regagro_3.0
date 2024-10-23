@@ -1,0 +1,102 @@
+<html lang="ru"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="LJWQKeokX713kXQiRaErddYBLjgz65KEWLIqcbax">
+    <!-- Scripts -->
+    <script src="/js/manifest.js?id=f80b70cf9eeba61f424a97a669806256"></script>
+    <script src="/js/vendor-1.js?id=13bb103b4d47483992f61eeaa80c7c80"></script>
+    <script src="/js/vendor-2.js?id=03be4763ceb7b08d38294d5fddb92d38"></script>
+    <script src="/js/vendor-3.js?id=20c9d62788fce496c625361172fa742d"></script>
+    <script src="/js/app.js?id=a5be02461458e893fd823ab5d2b4aec2"></script>
+    <!-- Styles -->
+    <link href="/css/app.css?id=66e6842a388138a37ff6ce11241a529f" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://v3.dev.regagro.ru/img/favicon.png">
+
+
+    
+    <title>Авторизация</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+<style>.password-input[data-v-70673bf6] {
+  position: relative;
+}
+.toggle-pass[data-v-70673bf6] {
+  position: absolute;
+  right: 14px;
+  top: 4px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.toggle-pass[data-v-70673bf6]:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3Jlc291cmNlcy9qcy9jb21wb25lbnRzL2NvbW1vbi9QYXNzd29yZElucHV0LnZ1ZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGtCQUFBO0FBQUY7QUFFQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtBQUNGO0FBQUU7RUFDRSxZQUFBO0FBRUoiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5wYXNzd29yZC1pbnB1dCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbi50b2dnbGUtcGFzcyB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDE0cHg7XG4gIHRvcDogNHB4O1xuICBvcGFjaXR5OiAwLjY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgJjpob3ZlciB7XG4gICAgb3BhY2l0eTogMC44O1xuICB9XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+
+<body>
+    <div id="top"></div>
+            <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom">
+    <div class="container">
+        <a style="color:#636363;" class="navbar-brand d-flex align-items-center" href="https://v3.dev.regagro.ru">
+            <img src="/img/regagro_logo.svg" alt="" style="height: 50px; margin-top:-8px; margin-bottom:-8px;">
+            <div class="text-wrap ms-3" style="font-size:12px; line-height: 120%; color:#000; max-width:160px;">
+                Автоматизированная информационная система
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Of Navbar -->
+            <ul class="navbar-nav me-auto">
+
+            </ul>
+
+            <!-- Right Side Of Navbar -->
+            <ul class="navbar-nav ms-auto">
+                <!-- Authentication Links -->
+                                                            <li class="nav-item">
+                            <a class="nav-link" href="https://v3.dev.regagro.ru/login">Авторизация</a>
+                        </li>
+                    
+                    
+                            </ul>
+        </div>
+    </div>
+</nav>
+        <main class="py-4" style="min-height:80vh;">
+                <div class="container" id="login-page" data-v-app=""><div class="row justify-content-center"><div class="col-md-8"><div class="card"><div class="card-header">Авторизация</div><div class="card-body"><form><div class="d-flex flex-column"><div class="row mb-3"><label for="email" class="col-md-4 col-form-label text-md-end">E-mail адрес</label><div class="col-md-6"><input id="email" type="email" name="email" class="form-control" required="" autocomplete="email" autofocus=""><!--v-if--></div></div><div class="row mb-3"><label for="password" class="col-md-4 col-form-label text-md-end">Пароль</label><div class="col-md-6"><div data-v-70673bf6="" class="password-input" id="password" name="password" required="" autocomplete="current-password" autofocus=""><input data-v-70673bf6="" type="password" class="form-control" autocomplete="new-password"><div data-v-70673bf6="" class="toggle-pass"><i data-v-70673bf6="" class="bi bi-eye-fill" style="font-size: 20px;"></i></div></div><!--v-if--></div></div></div><!-- <div class="row mb-3">
+              <div class="col-md-6 offset-md-4">
+                <div class="form-check">
+                  <input
+                    class="form-check-input checkbox-enterprise-types"
+                    type="checkbox"
+                    name="isQuarantine"
+                    v-model="isRemember"
+                  />
+
+                  <label class="form-check-label" for="remember">
+                    {{ localeMixin.methods.translate("auth.Remember Me") }}
+                  </label>
+                </div>
+              </div>
+            </div> --><div class="row mb-0"><div class="col-md-8 offset-md-4"><button class="btn btn-primary">Авторизация</button><a class="btn btn-link" href="password/reset">Забыли пароль?</a></div></div></form></div></div></div></div></div>
+        </main>
+        <footer class="d-flex align-items-center justify-content-center bg-white shadow-sm py-3">
+    © All rights reserved! 2024
+</footer>
+    
+    <button id="scrollToTop" class="scrollToTop hide-to-print" title="Наверх">
+    <i class="bi bi-chevron-up"></i>
+    Наверх
+</button>
+    <div class="modal-busy" style="display: none;">
+    <div class="center-busy">
+        <img src="https://v3.dev.regagro.ru/img/preloader.gif" alt="">
+    </div>
+</div>
+
+
+
+</body></html>

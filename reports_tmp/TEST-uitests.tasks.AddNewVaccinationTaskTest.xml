@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.tasks.AddNewVaccinationTaskTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-10-23T16:42:11" hostname="WIN-3RAHDNDFC19" time="162.642">
+  <properties/>
+  <testcase name="RAT-503 Создание задания по вакцинации" classname="uitests.tasks.AddNewVaccinationTaskTest" time="47.651"/>
+  <testcase name="RAT-507 Отправка задания по вакцинации ветеринару" classname="uitests.tasks.AddNewVaccinationTaskTest" time="6.051"/>
+  <testcase name="RAT-528 Получение задания по вакцинации от эпизоотолога" classname="uitests.tasks.AddNewVaccinationTaskTest" time="16.295"/>
+  <testcase name="RAT-530 Просмотр карточки задания по вакцинации" classname="uitests.tasks.AddNewVaccinationTaskTest" time="3.789"/>
+  <testcase name="RAT-849 Принятие задания по вакцинации в работу" classname="uitests.tasks.AddNewVaccinationTaskTest" time="4.131"/>
+  <testcase name="RAT-536 Выбор исполнителей для описи" classname="uitests.tasks.AddNewVaccinationTaskTest" time="0.0"/>
+  <testcase name="RAT-534 Создание описи по обработке" classname="uitests.tasks.AddNewVaccinationTaskTest" time="6.55"/>
+  <testcase name="RAT-548 Настройка препарата" classname="uitests.tasks.AddNewVaccinationTaskTest" time="31.855"/>
+  <testcase name="RAT-549 Формирование предварительного акта" classname="uitests.tasks.AddNewVaccinationTaskTest" time="16.025"/>
+  <testcase name="RAT-540 Формирование окончательного акта" classname="uitests.tasks.AddNewVaccinationTaskTest" time="19.126"/>
+  <testcase name="RAT- Выполнение описи с 1 препаратом" classname="uitests.tasks.AddNewVaccinationTaskTest" time="11.139"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=f7RhE7vXK5IqMq9CofB2yHKHAP4iWV2GMvyF89fa
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IlJQYXdZK3Bwa3FmOWhSYzZiWXZqYUE9PSIsInZhbHVlIjoiSmIxSlYwYnI1TnR0ZFZOci9xOVUvMzh1RGlvVUFGbE1mM3VyVFVpSEZROXcvelczcjQ3K0tiWXZ3eXRBVXZhcHZUcjVOMEsrbTM2bHpINDcyenh0TXFBTW1wSDZRSkZzMU1leHlvcnBvS0F1TXZsQVdGdHQrUDlsODFtaTBISmYiLCJtYWMiOiJjYTQ3Yzk0ZTM2NWEyYzEwOWI3MDVmYWMyM2QxNmU0MDRkNDBjODRmMjk3NjNlOGVlZWZmMTU2Yzc5ZjhiYjQzIiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6IkpEemlxRmI3bDlFcTJnYlZIUHVBR2c9PSIsInZhbHVlIjoiT1ZpcmprL0gzYWVhM3BXQUhhaEQ1OUpWRVVtM3dHN0xnbWYvS001eFlOKzk5NkEyeWszSGh6dFA2a01kMmo3U2FrdG5RNGVvQ3B1bDQyK29MN25RKzZZNUtzcVplSTNGemE5SkdKZlBHY201Wm5GZDVRMll4ZjVtNFk4SHcweG0iLCJtYWMiOiIyZmQzMTI3YzA4NzNjNzk3MWZhMWRiZTQwNTIxNDljNWEzYzkwNzAxMDJhMjk3Yzk3ZTJmNTczMWYwOGIxNWVlIiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "gabriella.schuster@hotmail.com",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

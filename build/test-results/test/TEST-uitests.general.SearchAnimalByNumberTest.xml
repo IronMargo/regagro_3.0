@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.general.SearchAnimalByNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T21:06:37" hostname="WIN-3RAHDNDFC19" time="14.56">
+  <properties/>
+  <testcase name="RAT-2691 Поиск животного по номеру" classname="uitests.general.SearchAnimalByNumberTest" time="14.56"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=faFyLaE2M0ICV3XvSj8bKzBAY73jxKT58mMnRzbb
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IkdxTnk1L1J3aUNoMEhqVHcveGhyd0E9PSIsInZhbHVlIjoibW1yWDdrK1lEeUdBSndFd2lpYWFOSVR4QUJJNmhBOXhLZDkzb3NodWh0R1lEbDJQMURRZXFVbVlHeE1LajF2Rys1blBSdXN6dXFyTEI1SDRoQnpnSTlXaTBTMWhDejBDUXNEb0tuV0FjTVUzeUdMUldVTi9jQlY5TEF6ZVptRzUiLCJtYWMiOiJhMjk2MWQzYjliZjA5NmFmNDk4ZDAzODE4ZWJmNTY2ZjEwMWE4OTNmNGNmOWQ4OTllODZkMmI0ZjAxOWNhNjY2IiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6IlE4d25BTDJsN1M5VldDVS84ZUpINlE9PSIsInZhbHVlIjoiZ25QL3lKL1ZFRnZDWWt2dnk1UEVOaTI4bkpQamt0dGZuWXJEWG8vRTNhUmRURkpEd3Eyd08rSXlrcVNXZTltaHJ6VjBsVXN5NlZFRmgxbHh5VUY5b25NdGF4Z0xlZ2RIWTJOZ0ROZVowVFo2SDZHNkRoYmpjcVduWHJQcGZvSmQiLCJtYWMiOiJkZDM4ZDFiODIwNWY4MTFmNjM3M2VlN2ZlZWUyNTdkMDM5ZWExNjE4NTk2NzNjODQ3Njg2ZTg2MDYwZDc3ZDU1IiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "admin@regagro.net",
+    "password": "44qsaTeF@p8I"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

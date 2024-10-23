@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.disposal.DisposalTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-23T13:27:32" hostname="WIN-3RAHDNDFC19" time="43.393">
+  <properties/>
+  <testcase name="RAT-1248 Зарегистрировать список выбытия по причине личные нужды" classname="uitests.disposal.DisposalTest" time="15.827"/>
+  <testcase name="RAT-1259 Выбор животного для выбытия" classname="uitests.disposal.DisposalTest" time="15.114"/>
+  <testcase name="RAT-1264 Активация списка выбытия" classname="uitests.disposal.DisposalTest" time="5.405"/>
+  <testcase name="RAT-1265 Просмотр списка выбытия" classname="uitests.disposal.DisposalTest" time="1.003"/>
+  <testcase name="Просмотр списка выбытия в Реестре выбытий" classname="uitests.disposal.DisposalTest" time="3.787"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=x6UoR3AHzhcrcbEEYH9MeZwShGpe7ANzQOltVIg1
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IjdOT0pUMzlWbS9BRXo5bnFwNHlVV3c9PSIsInZhbHVlIjoiYUt5bjBhT0FybVRMVGlQWHRncXB3ZXFpYmFGNjVvRStsVXk4V3hMZ3NpYUpyaDdUWGdlSmFld211UlhQaHp0MTF6MVpZUllUVnV6KzlkaUZiYmJJTTVGRlFRNWhYUUdWbXRoWU5WMm9ua3lZbyt4a09FM2kxVFBrMktTYng4UVoiLCJtYWMiOiI0MDY0OWE4NGMzNmZjYWE1MmQ0Y2RjYTY4Nzk2N2ZjNDJlYTE4OWRjZDdmNzkyMDIxNzRhNGIyZDkzMDEwZjBjIiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6IlI4dW1YdUMvVkhicVE3NzdrUTNlMnc9PSIsInZhbHVlIjoiOFE1WkJ5ZU1BN2NBLzRYQXpONnVDb3BMWU1LQm5QcWl3NjFDZ3RlZHVrM0NxcEZmTG9Cb3dQaVZXZHpGSHh4eU1WTjJrMTJ1V1paZTU0azYzZmRKQWp6Y0xBUVNOa2U3aGJvKzYzNzVUVkRab1hUZ2Y0WG5BMklCVmFJbElOTmoiLCJtYWMiOiJiMzc3NTZiNDIyNmIxZjI3MDNlOGI4NjI4NzA0NmFjODYzYjc5ZTkzYTMyYTQ3ZDA1ZmIxNTJjNTg1YTNmMDBlIiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "cheh@p.v",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

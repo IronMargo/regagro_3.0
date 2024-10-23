@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.tasks.AddNewAllergicTaskTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-10-23T13:35:32" hostname="WIN-3RAHDNDFC19" time="159.714">
+  <properties/>
+  <testcase name="RAT-1411 Создание задания по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="43.762"/>
+  <testcase name="RAT-1427 Отправка задания по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="4.879"/>
+  <testcase name="RAT-3470 Получение задания по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="15.706"/>
+  <testcase name="RAT-778 Просмотр карточки задания по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="4.054"/>
+  <testcase name="RAT-3471 Принятие задания по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="3.694"/>
+  <testcase name="RAT-2463 Создание описи по обработке" classname="uitests.tasks.AddNewAllergicTaskTest" time="5.578"/>
+  <testcase name="RAT-831 Настройка акта постановки препарата" classname="uitests.tasks.AddNewAllergicTaskTest" time="49.809"/>
+  <testcase name="RAT-833 Формирование акта проверки результата" classname="uitests.tasks.AddNewAllergicTaskTest" time="17.079"/>
+  <testcase name="RAT-844 Указание результатов исследования" classname="uitests.tasks.AddNewAllergicTaskTest" time="9.957"/>
+  <testcase name="RAT-847 Выполнение описи по аллергическим исследованиям" classname="uitests.tasks.AddNewAllergicTaskTest" time="5.178"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=ugOWazOhGD6skxhM5YAB5GhcMLFjRSY1eH3TPnAr
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6ImVUSnVRK3YrRFhQd2VMK1lhV25Ed0E9PSIsInZhbHVlIjoiVFp4MGxSaVBUcGRpUU1USkpsK3dSUzgwR3FORm5reGNqYjIxdmdySFNRSGtVUm5kZHplZXpTZ0c3ek9Ca1BxVVhJZ1ovSHc4RkJmWGdDUjF6ZVlVOWMyTVJZZGNlNGhsQStCaVZKcU9CQmZObVpDZklJMTZWemtVOVh3UUlmdmgiLCJtYWMiOiI2NzVlNTAzNTA3YzU3MTBiNDYyYmM2MDUxZDRhNDFiNTkwYzZjYTdlYzY1NTcwYTU3OGEzZjkzMjE4OTAyOGJkIiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6ImNvRXVkTlNWUFBPSjBVQXJveFh2N2c9PSIsInZhbHVlIjoiWGVtcFV1QmQ2ZitWcXdrRmQxZzdHbFpzWVlLeGVXdEtwSjZDbE9GRGdLbFl0TkthSjYxMDhRc1ZiYWZHOWgwMVhuZHA5Y0dna1FRd3hTcEV2djR5aitCL3hhVGU3VTZxSjJhSGpTVHovM2Q1RGRjR3N6MmtWVWxlM2I2UmtEUkEiLCJtYWMiOiIwZTFhYWZmYWJjOTA3NmYxMjI0M2IwM2UzZWM3Y2ZjMjAwN2Q5Y2ZiM2Q1OTNmZWU1YjQxNGJlOWI4ZDllOTdjIiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "gabriella.schuster@hotmail.com",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

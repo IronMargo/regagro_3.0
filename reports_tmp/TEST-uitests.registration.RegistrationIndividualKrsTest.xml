@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.registration.RegistrationIndividualKrsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T13:31:54" hostname="WIN-3RAHDNDFC19" time="24.185">
+  <properties/>
+  <testcase name="RAT-1948 Регистрация животного" classname="uitests.registration.RegistrationIndividualKrsTest" time="24.185"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=TQPD1NTDROdNltMKmIzHbSrlA2z6phQO8KzUExqI
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6ImYra1JNMFVnWUgxMnhreU1HSHJRM3c9PSIsInZhbHVlIjoiK01NNk5IS0x0QUpYS0NadDZ6Rm9hM3JOOE5pSm9McXlVVWtBMWl4Sm9Mck1oOEJXV3luVGJzN0pvMTRQOVc1Nkk3MFo2aXJ1ZjhiMmVRMk1VTk56OEZIbllrdWpraURWa2JHNnltNjBDVHVSUC92R1I3SVJvYXR3c2J6T2dNTjAiLCJtYWMiOiJkMjU3NjVlN2VmNDc2MDYyNGNhY2VhNmYxOTJiMTQ0OTI0Nzk2OTBhNGQzY2UyZGFiOWI3YzI3ZDkzNjVhMGFhIiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6Ijk5WEJnMlBtMjUxdnNJNmlVNTNhUVE9PSIsInZhbHVlIjoicHU4dFpSMHJNSEkxeWZxYzlUTGt6SzlyL3dSZXd3akhqZ1k2TmNDM0swRkgvUEFmQ0FDaXB0bWhheVpvbWIrTGd0Mk9vakdDNGdzNUcxajczeHovdUt2M0o4R2lMSndQWnFsQVFya0E5V0xmdHlCV2hvSkFZeWxBUk9adE94dk0iLCJtYWMiOiIxYjhiYjg5YWYzMWYwNzgxMGQ1NjM1ZmU0ODhlNDc4Yzk0MTBiYWM1ODgwMmQzOTc2YzUyYzQxYTlmMTk0OGU4IiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "kam@kam.kam",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

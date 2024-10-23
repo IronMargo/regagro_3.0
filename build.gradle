@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.12.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 17
+targetCompatibility = 17
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+
+allure {
+    version = '2.25.0'
+    useJUnit5 {
+        version = '2.25.0'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:23.0.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    implementation 'com.codeborne:selenide:7.4.1'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+    implementation 'io.rest-assured:rest-assured:5.5.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.projectlombok:lombok:1.18.32'
+    implementation 'io.qameta.allure:allure-selenide:2.28.0'
+    implementation 'commons-dbutils:commons-dbutils:1.7'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.20.0'
+    implementation 'org.jsoup:jsoup:1.18.1'
+    implementation 'org.apache.commons:commons-configuration2:2.11.0'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'org.assertj:assertj-core:3.26.3'
+}
+// Сначала определяем project.ext.testTag
+project.ext.testTag = "REGRESS"
+
+// Конфигурация для ВСЕХ задач типа Test
+test {
+    useJUnitPlatform {
+        includeTags = [project.ext.testTag] as Set
+    }
+    maxParallelForks = 1
+    systemProperty 'selenide.browser', 'firefox'
+}
+
+//// Затем объявляем задачу runTestsByTag
+//tasks.register('runTestsByTag', Test) {
+//    println "Текущее значение tag: ${project.ext.testTag}"
+//    description = 'Запускает тесты по заданному тегу'
+//    group = 'verification'
+//}

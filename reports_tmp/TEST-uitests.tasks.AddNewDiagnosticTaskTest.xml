@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.tasks.AddNewDiagnosticTaskTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-23T12:53:59" hostname="WIN-3RAHDNDFC19" time="71.466">
+  <properties/>
+  <testcase name="RAT-1155 Создание задания по диагностическим исследованиям" classname="uitests.tasks.AddNewDiagnosticTaskTest" time="42.836"/>
+  <testcase name="RAT-1455 Отправка задания по диагностическим исследованиям" classname="uitests.tasks.AddNewDiagnosticTaskTest" time="5.488"/>
+  <testcase name="RAT-850 Получение задания по диагностическим исследованиям" classname="uitests.tasks.AddNewDiagnosticTaskTest" time="15.594"/>
+  <testcase name="RAT-851 Просмотр карточки задания по диагностическим исследованиям" classname="uitests.tasks.AddNewDiagnosticTaskTest" time="3.746"/>
+  <testcase name="RAT-1137 Принятие задания по диагностическим исследованиям" classname="uitests.tasks.AddNewDiagnosticTaskTest" time="3.687"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=rXdl7rqncMWbimL2mAuxL7TCWE6CxgDNBKSYbgJI
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IlpJODBxWDZBRk80azMyQm0zZmlrL3c9PSIsInZhbHVlIjoiRVIwUUpZRGt0bXA5OUFWNlM0bFhnMHA2a3ZqeXhYejRLeDZ1L0RZRnFpMi9RYlVrNXVjRk9vU3BCcXU3ZEt2eWxwZjFVdDZuRGJvSG5pTnh3eGFlVEdlSytRb1gyNXl2eUMxZmdrOUd2RXRJSTFxWE12b1hhMXEzS1g2K3BZVnciLCJtYWMiOiJjMjQwOTYwNTZkNTYzOWU1ODhlNDM5NmI0MGNhMGQxMDIyOGZlZWMwNDFjMzkwZDgwOGIwNzI3ZjU5NDRhZjQ1IiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6IjZVb09KVy9PUlB0M3lmNGtxL0h2OWc9PSIsInZhbHVlIjoiMHRNL05yc0lDRGQrN3NNN2ZKVHNxeTk4V3RrOVkvbWFLT1JPVkF2bUtDNjJnUjFCYU5ZM1lvaU5KeERVa3VUTW93NDZ6SEoxU1Q0T2NtWFhCWWtRNFNSREtTYSs5TWFvS1ljTWh4QWhFdG16aENVZm1ZZ056NG9xeUlORGFtMjAiLCJtYWMiOiJkMDA4OGI3OTQ0M2FhYzNmMGU3MjdhZGQ5MzAxNTk3YmIzMDE2ODFlOGE1MTU3NjY1ZjM3MTAwOTQyNzgxN2M1IiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "gabriella.schuster@hotmail.com",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

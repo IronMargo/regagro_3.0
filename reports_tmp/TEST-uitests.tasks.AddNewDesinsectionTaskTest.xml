@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uitests.tasks.AddNewDesinsectionTaskTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-10-23T16:39:01" hostname="WIN-3RAHDNDFC19" time="167.687">
+  <properties/>
+  <testcase name="RAT-2489 Создание задания по дезинсекции" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="41.722"/>
+  <testcase name="RAT-2498 Отправка задания по дезинсекции" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="4.912"/>
+  <testcase name="RAT-2445 Получение задания по дезинсекции" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="18.025"/>
+  <testcase name="RAT-2446 Просмотр карточки задания по дезинсекции" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="3.803"/>
+  <testcase name="RAT-2456 Принятие задания по дезинсекции" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="4.536"/>
+  <testcase name="RAT-2463 Создание описи по обработке" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="4.868"/>
+  <testcase name="RAT-2470 Настройка препарата" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="38.195"/>
+  <testcase name="RAT-2484 Формирование предварительного акта" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="19.622"/>
+  <testcase name="RAT-2486 Формирование окончательного акта" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="17.55"/>
+  <testcase name="RAT-2479 Выполнение описи с 1 препаратом" classname="uitests.tasks.AddNewDesinsectionTaskTest" time="14.411"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://v3.dev.regagro.ru/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-Csrf-Token=AsVaBxunDOuBzNcGxnHNWuVidtgPEyzgX1peNIJZ
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		XSRF-TOKEN=eyJpdiI6IjdlU0NqOVp3TStneFAyUksraytKQ3c9PSIsInZhbHVlIjoiQWhEUEROd0s1Q2V0L0xrcW00MksyZG1uejB6TWVybVJBb1lPUzFGTjhzaTJTZU8xa1B1RWNGNm0rTnpEK2VBZDRxSzFka3M0disrVFRmR2tKRjVTd1Q5dHpFRUZMbWJWeUtMNURDWHVSYnBOZFM5SW9NZHpKeDRJVHJhTGhjRi8iLCJtYWMiOiJmNTdlNjQzYmEzNGFiMjkxZjg4NTg2MWY0OWYxNzE5ZjlkZmU0ZmI0ZWU5YmM1ZTNjYzE4MTRjNjBiYzRhZDE4IiwidGFnIjoiIn0%3D
+				laravel_session=eyJpdiI6IjRoeXoxRVpKQnRjdnFvQWM3OEo4VGc9PSIsInZhbHVlIjoiMUpNUXVCbFR6UXhpZ05OdG85ZkNtQ0NGb1VQbkFLNGR6ZDAvUTRlQVNTU0cva0xMeWVRemh4TnRtV1VNRGUxL0F0SmZQTFpFRVd3TmtqdmQ0dmZJM28rcWJVTG43NHhFZk8yYzE1bnlXNTNrRmFqZzcwMXBXR2QwcllmQ1RLbEMiLCJtYWMiOiIwNTI5MGY4OTZlY2FmOTgzMTAzZGJiOWRlOWZjYjFiZjYxNTYxZTk1YmJlMjA2MjNhMzk0NmZkZGRkZmM4NDI0IiwidGFnIjoiIn0%3D
+Multiparts:		<none>
+Body:
+{
+    "email": "gabriella.schuster@hotmail.com",
+    "password": "33221100"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
